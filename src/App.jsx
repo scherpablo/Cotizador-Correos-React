@@ -24,6 +24,13 @@ function App() {
     return "Meses";
   }
 
+  function textoCuotas() {
+    if (meses === 1) {
+      return "cuota";
+    }
+    return "cuotas";
+  }
+
   useEffect(() => {
     setTotal(devolverDinero(correos, meses));
   }, [correos, meses]);
@@ -110,7 +117,7 @@ function App() {
           <span className= "text-indigo-600 font-extrabold"> {span} </span>
           <p className= "text-xl text-center font-extrabold mt-5">* Período <span className= "text-indigo-600 font-extrabold">{meses} {textoMeses()}</span> *</p>
           <p className= "text-xl text-center font-extrabold mt-2">* 1 pago de <span className= "text-green-600 font-extrabold">{formatearDinero(total)}</span> *</p>
-          <p className= "text-xl text-center font-extrabold mt-2">* {meses} cuotas de <span className= "text-indigo-600 font-extrabold">{formatearDinero(pago)}</span> *</p>
+          <p className= "text-xl text-center font-extrabold mt-2">* {meses} {textoCuotas()} de <span className= "text-indigo-600 font-extrabold">{formatearDinero(pago)}</span> *</p>
         </h2>
       </div>
       <p className= "text-xs text-center font-bold text-gray-800">El servicio incluye contratación del dominio, alojamiento en servidores y configuración de correo electrónico.</p>
