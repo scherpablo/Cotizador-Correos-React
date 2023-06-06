@@ -120,7 +120,7 @@ function App() {
           <p className="text-xl text-center font-extrabold mt-2">* {meses} {textoCuotas()} de <span className="text-indigo-600 font-extrabold">{formatearDinero(pago)}</span> *</p>
         </h2>
         <div className="text-center">
-          <a href="mercadopago.com.ar">
+          <a href="https://www.mercadopago.com.ar">
             <button className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded">
               Abona por MP
             </button>
