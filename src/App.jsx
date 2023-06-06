@@ -122,7 +122,7 @@ function App() {
         <div className="text-center">
           <a href="https://www.mercadopago.com.ar" target="_blank" rel="noopener noreferrer">
             <button className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded">
-              Abona por MP
+              Aboná por MP
             </button>
           </a>
         </div>
