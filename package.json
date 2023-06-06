@@ -1,5 +1,5 @@
 {
-  "name": "cotizador-prestamos-react",
+  "name": "cotizador-correos-scherpablo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "mercadopago": "^1.5.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sweetalert2": "^11.7.10"
