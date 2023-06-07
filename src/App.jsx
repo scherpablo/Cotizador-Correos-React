@@ -118,6 +118,11 @@ function App() {
           <p className="text-xl text-center font-extrabold mt-5">* Período <span className="text-indigo-600 font-extrabold">{meses} {textoMeses()}</span> *</p>
           <p className="text-xl text-center font-extrabold mt-2">* 1 pago de <span className="text-green-600 font-extrabold">{formatearDinero(total)}</span> *</p>
         </h2>
+        <div className="text-center">
+          <a href="https://mercadopago.com.ar" target="_blank" rel="noreferrer">
+          <button className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-2 px-4 rounded">Comprar</button>
+          </a>          
+        </div>
       </div>
       <p className="text-xs text-center font-bold text-gray-800">El servicio incluye contratación del dominio, alojamiento en servidores y configuración de correo electrónico.</p>
       <p className="text-xs text-center font-bold mt-1 text-gray-800">Si tienes alguna duda puedes contactarme al 1132069043.</p>
